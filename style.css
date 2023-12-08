@@ -1,0 +1,213 @@
+body{
+    margin: auto;
+}
+.main{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+gap: 20px;
+}
+.main .first{
+width: 530px;
+}
+.main #cars{
+height: 50px;
+border: 1px solid rgb(113, 184, 7);
+outline: none;
+box-shadow: none;
+}
+.firsts{
+width: 1090px;
+}
+.inp{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.main .form label{
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+color: rgb(37, 37, 255);
+font-weight: 550;
+}
+.main .sec{
+width: 530px;
+}
+.main .img{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+.main .img .mainDiv{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+/* width: 1240px; */
+width: 80%;
+height: 229px;
+background-image: url(images/pexels-lumn-316466.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main .img .btns{
+position: relative;
+top: 14px;
+gap: 7px;
+display: flex;
+flex-direction: row;
+}
+.main .img .btns #newA {
+font-size: 16px;
+font-weight: 600;
+padding: 10px;
+background-color: white;
+color: rgb(113, 184, 7);
+border: 1px solid lightgray;
+border-bottom: none;
+}
+.main .img .btns #newA:focus{
+background-color: white;
+color: rgb(113, 184, 7);
+}
+.main .img .btns #Down {
+font-size: 16px;
+font-weight: 600;
+border-bottom: none;
+padding: 10px;
+color: rgb(37, 37, 255);
+}
+.main .img .btns #Down:focus{
+background-color: white;
+color: rgb(113, 184, 7);
+}
+.main .img .btns #Resu {
+font-size: 16px;
+font-weight: 600;
+border-bottom: none;
+padding: 10px;
+color: rgb(37, 37, 255);
+}
+.main .img .btns #Resu:focus{
+background-color: white;
+color: rgb(113, 184, 7);
+}
+.main .form{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+width: 100%;
+position: relative;
+top: 30px;
+
+}
+.main .img .mainDiv .image{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main .img .para{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 10px;
+}
+.main .img .para h2{
+font-size: 27px;
+font-weight: 700;
+}
+.main .img .mainDiv .image img{
+width: 65%;
+}
+.main .uploadPic{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+width: 1090px;
+position: relative;
+top: 30px;
+/* border: 1px solid; */
+margin: auto;
+}
+.main .uploadPic .mmmain{
+display: flex;
+width: 100%;
+display: flex;
+gap: 20px;
+/* border: 1px solid; */
+}
+.main .uploadPic .mmmain .uploadpicbtn .asa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main .uploadPic .mmmain .uploadpicbtn #upload{
+width: 130px;
+height: 130px;
+border-radius: 10px;
+border: 1px dotted grey;
+
+}
+.main .uploadPic .mmmain .uploadpicbtn #hidden{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    border: 1px dotted grey;
+    
+    }
+.main .uploadPic .mmmain .uploadpicbtn #hidden{
+display: none;
+}
+.main .uploadPic .mmmain .uploadpicbtn #upload:hover{
+border: 2px dotted rgb(55, 118, 206);
+}
+.main .uploadPic .mmmain span h6{
+line-height: 24px;
+font-size: 12px !important;
+font-weight: 500;
+}
+.main .paragraph{
+position: relative;
+top: 30px;
+width: 1090px;
+height: 190px;
+margin: auto;
+border-top: 1px solid lightgrey;
+/* border: 1px solid; */
+}
+.main .paragraph p{
+position: relative;
+top: 10px;
+left: 10px;
+}
+.main .submit{
+position: relative;
+top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main .submit button{
+width: 1092px;
+}
+
+
+#uploadpic{
+    display: none;
+}
+#hidden{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
